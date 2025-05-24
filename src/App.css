@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", sans-serif;
+}
+
+/* Signup form container */
+.container-SignupForm {
+  /* background-color: aqua; */
+  width: 100%;
+  /* Full width */
+  height: 75vh;
+  /* Fixed height */
+  display: flex;
+  /* Use Flexbox */
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+}
+
+/* Form element */
+.container-SignupForm form {
+  width: 60%;
+  background-color: white;
+  /* Optional: to help visualize */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Optional custom styles */
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+input::placeholder {
+  color: #adb5bd;
+}
+
+
+
+/* login form */
+
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+input::placeholder {
+  color: #adb5bd;
+}
