@@ -3,7 +3,8 @@ import { BsHeartFill, BsGraphUpArrow, BsBullseye } from 'react-icons/bs';
 
 const FeaturesSection = () => {
   return (
-    <section className="py-5 bg-white">
+    <section className="py-5">
+
       <div className="container text-center">
         <h2 className="fw-bold text-primary mb-4">Why Choose Our Tracker?</h2>
         <div className="row g-4">

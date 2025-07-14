@@ -4,7 +4,8 @@ const TestimonialSection = () => {
     return (
         <>
 
-            <section className="py-5 bg-light">
+            <section className="py-5">
+
                 <div className="container text-center">
                     <h2 className="fw-bold text-primary mb-5">What Our Users Say</h2>
                     <div className="row justify-content-center">

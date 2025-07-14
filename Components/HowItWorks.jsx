@@ -2,7 +2,8 @@ import React from 'react'
 import { BsFillClockFill, BsGraphUp, BsCheckCircleFill } from 'react-icons/bs';
 const HowItWorks = () => {
     return (
-        <section className="py-5 bg-light">
+       <section className="py-5">
+
             <div className="container text-center">
                 <h2 className="fw-bold text-primary mb-5">How It Works</h2>
                 <div className="row g-5">

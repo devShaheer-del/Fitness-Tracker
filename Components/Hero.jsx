@@ -1,9 +1,11 @@
 import React from "react";
 import hero from '../src/assets/images/one.png'; // Fixed import
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="bg-light py-5">
+    <section className="py-5">
+
       <div className="container py-5">
         <div className="row align-items-center">
 
@@ -15,9 +17,9 @@ const Hero = () => {
             <p className="lead text-secondary mt-3">
               Stay on top of your goals with real-time tracking and smart insights to push your limits.
             </p>
-            <a href="#get-started" className="btn btn-primary btn-lg mt-4 px-4 py-2">
+            <Link to="/select-workout" className="btn btn-primary btn-lg mt-4 px-4 py-2">
               Get Started
-            </a>
+            </Link>
           </div>
 
           {/* Right Side: Image */}
