@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 
+
+
 const GlobalWorkouts = () => {
     const [workouts, setWorkouts] = useState([]);
     const [search, setSearch] = useState("");
