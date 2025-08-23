@@ -6,7 +6,7 @@ export default defineConfig({
 
   server : {
     proxy : {
-      '/api' : "https://f-backend-eight.vercel.app/"
+      '/api/v1' : "https://f-backend-eight.vercel.app/"
     }
   }
 })

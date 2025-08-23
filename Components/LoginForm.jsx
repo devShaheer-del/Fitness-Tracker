@@ -22,7 +22,7 @@
             }
 
             try {
-                const res = await axios.post(`${api}/api/v1/auth/Login`, { email, password });
+                const res = await axios.post(`/api/v1/auth/Login`, { email, password });
                 const { user, token, success, message } = res.data;
 
                 if (success) {
