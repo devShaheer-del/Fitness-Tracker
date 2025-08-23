@@ -28,7 +28,7 @@ const SignupForm = () => {
     data.append('photo', formData.photo);
 
     try {
-      const res = await fetch('/api/v1/auth/Register', {
+      const res = await fetch('https://f-backend-eight.vercel.app/api/v1/auth/Register', {
         method: 'POST',
         body: data
       });
