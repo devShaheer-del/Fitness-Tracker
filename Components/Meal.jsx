@@ -28,7 +28,7 @@ const Meal = () => {
         }
 
         try {
-            const url = "http://localhost:8080/api/v1/meal/create-meal";
+            const url = "https://f-backend-eight.vercel.app/api/v1/meal/create-meal";
 
             const response = await axios.post(
                 url,

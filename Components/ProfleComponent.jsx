@@ -38,7 +38,7 @@ const ProfileComponent = () => {
       if (password) formData.append('password', password);
       if (imageFile) formData.append('photo', imageFile);
 
-      const { data } = await axios.put(`http://localhost:8080/api/v1/auth/UpdateProfile/${userId}`, formData, {
+      const { data } = await axios.put(`https://f-backend-eight.vercel.app/api/v1/auth/UpdateProfile/${userId}`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

@@ -51,7 +51,7 @@ const CardioExercise = () => {
             }
 
             const response = await axios.post(
-                "http://localhost:8080/api/v1/workout/Create-Cardio",
+                "https://f-backend-eight.vercel.app/api/v1/workout/Create-Cardio",
                 payload,
                 {
                     headers: {

@@ -35,7 +35,7 @@ const CalculateWorkouts = () => {
           return;
         }
 
-        const res = await axios.get("http://localhost:8080/api/v1/auth/getWorkouts", {
+        const res = await axios.get("https://f-backend-eight.vercel.app/api/v1/auth/getWorkouts", {
           headers: {
             Authorization: `Bearer ${auth.token}`,
           },

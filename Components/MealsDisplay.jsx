@@ -16,7 +16,7 @@ const MealsDisplay = () => {
         return;
       }
 
-      const response = await axios.get("http://localhost:8080/api/v1/auth/getMeals", {
+      const response = await axios.get("https://f-backend-eight.vercel.app/api/v1/auth/getMeals", {
         headers: {
           Authorization: `Bearer ${auth.token}`,
         },

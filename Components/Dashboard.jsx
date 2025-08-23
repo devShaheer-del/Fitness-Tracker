@@ -15,7 +15,7 @@ const Dashboard = () => {
         return;
       }
 
-      const response = await axios.get("http://localhost:8080/api/v1/auth/getWorkouts", {
+      const response = await axios.get("https://f-backend-eight.vercel.app/api/v1/auth/getWorkouts", {
         headers: {
           Authorization: `Bearer ${auth.token}`,
         },

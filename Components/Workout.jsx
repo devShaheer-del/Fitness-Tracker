@@ -72,7 +72,7 @@ const Workout = () => {
             }
 
             const response = await axios.post(
-                "http://localhost:8080/api/v1/workout/CreateWorkout",
+                "https://f-backend-eight.vercel.app/api/v1/workout/CreateWorkout",
                 payload,
                 {
                     headers: {

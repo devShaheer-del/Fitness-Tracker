@@ -18,7 +18,7 @@ const GlobalWorkouts = () => {
                 return;
             }
 
-            const response = await axios.get("http://localhost:8080/api/v1/workout/GetWorkouts", {
+            const response = await axios.get("https://f-backend-eight.vercel.app/api/v1/workout/GetWorkouts", {
                 headers: {
                     Authorization: `Bearer ${auth.token}`,
                 },

@@ -15,7 +15,7 @@ const SetReminder = () => {
     try {
       const token = localStorage.getItem('token');
       const response = await axios.get(
-        'http://localhost:8080/api/v1/reminder/getreminder',
+        'https://f-backend-eight.vercel.app/api/v1/reminder/getreminder',
         {
           headers: { Authorization: `Bearer ${token}` },
         }

@@ -13,7 +13,7 @@ const Contact = () => {
   const handleSubmite = async (e) => {
     e.preventDefault();
     try {
-      const url = 'http://localhost:8080/api/v1/ContactUs/contact';
+      const url = 'https://f-backend-eight.vercel.app/api/v1/ContactUs/contact';
       const response = await axios.post(url, { name, email, message }, {
         method: 'POST',
         headers: {
