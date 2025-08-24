@@ -53,7 +53,7 @@ const MealsDisplay = () => {
         return;
       }
 
-      const response = await axios.delete(`http://localhost:8080/api/v1/auth/deleteMeal/${id}`, {
+      const response = await axios.delete(`https://f-backend-eight.vercel.app/api/v1/auth/deleteMeal/${id}`, {
         headers: {
           Authorization: `Bearer ${auth.token}`,
         },
@@ -91,7 +91,7 @@ const MealsDisplay = () => {
       }
 
       const response = await axios.put(
-        `http://localhost:8080/api/v1/auth/updateMeal/${selectedMeal._id}`,
+        `https://f-backend-eight.vercel.app/api/v1/auth/updateMeal/${selectedMeal._id}`,
         selectedMeal,
         {
           headers: {
