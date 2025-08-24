@@ -35,7 +35,7 @@ const SetReminder = () => {
     fetchReminders();
 
     if (!socket.current) {
-      socket.current = io('http://localhost:8080'); // backend port
+      socket.current = io('https://f-backend-eight.vercel.app'); // backend port
     }
 
     if (Notification.permission !== 'granted') {
@@ -76,7 +76,7 @@ const SetReminder = () => {
     try {
       const token = localStorage.getItem('token');
       const response = await axios.post(
-        'http://localhost:8080/api/v1/reminder/SetReminder',
+        'https://f-backend-eight.vercel.app/api/v1/reminder/SetReminder',
         newReminder,
         {
           headers: { Authorization: `Bearer ${token}` },
